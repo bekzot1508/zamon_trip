@@ -277,7 +277,7 @@ function Responsive() {
                                       
                                     </div>
                                     <div className="flex  text-gray-400 items-center mb-2">
-                                    <UsersThree size={32} />
+                                    <UsersThree size={21} />
                                         <h6> {item.checkins}</h6>
                                         <h6 className="mr-auto">{t("2ci")}</h6>
                                         <h6>/ {t("2o")}</h6>
