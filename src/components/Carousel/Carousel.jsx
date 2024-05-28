@@ -315,9 +315,9 @@ function Responsive() {
                     visaDatas.map(item => (
                         <div className="relative h-96 mx-8" key={item.id}>
                             <img className="w-7/12 sm:w-8/12  md:w-7/12  lg:w-6/12 2xl:h-96 lg:h-64 md:h-64 sm:h-full h-56 object-cover rounded-l-[20px] md:rounded-r-none sm:rounded-[20px]" src={item.img} alt="" />
-                            <div className="absolute top-8 xl:top-20 2xl:top-12 lg:left-8 xl:left-16 2xl:left-28 md:left-12 sm:left-40  left-0 bg-white rounded-[20px] p-4 mx-4 shadow-lg">
+                            <div className="absolute  top-8 xl:top-20 2xl:top-12 lg:left-8 xl:left-16 2xl:left-28 md:left-12 sm:left-40  left-[-17px] bg-white sm:rounded-[20px] rounded-[10px] p-1 sm:p-4 mx-4 shadow-lg">
                                 <div>
-                                    <div className="flex font-extrabold text-xl">
+                                    <div className="flex font-extrabold text-xl mt-3 sm:mt-0">
                                         <h3 className="mr-auto">{item.title}</h3>
                                         <h3 className="ml-auto">{item.price}</h3>
                                     </div>
@@ -333,7 +333,7 @@ function Responsive() {
                                         <h4 className="mt-2 md:font-semibold flex items-center gap-1 text-gray-400"><Car size={16} />{t("3prce")}</h4>
                                         <h4 className="my-1 md:font-semibold flex items-center gap-1 text-gray-400"><Airplane size={17} />{t("3tme")}</h4>
                                         <h4 className="my-1 md:font-semibold flex items-center gap-1 text-gray-400"><BuildingOffice size={16} />{t("3tras")}</h4>
-                                        <h4 className="my-3 md:font-semibold rounded-full py-2 mx-auto text-center bg-zinc-500 hover:bg-zinc-400">{t("2mr")}</h4>
+                                        <h4 className="my-3 md:font-semibold rounded-full py-2  sm:mx-auto text-center bg-zinc-500 hover:bg-zinc-400">{t("2mr")}</h4>
                                     </div>
                                 </div>
                             </div>
